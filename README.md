@@ -1,46 +1,69 @@
-Welcome to the Database of Damascus
+Welcome to the **Database of Damascus**
 
 Program commands:
 
-GETID
+**GETID**
+
         GETID SRC DEST
-        SRC     SOURCE FILE LOCATTON
-        DEST    DESTINATION FILE LOCATION (optional)
+
+SRC     SOURCE FILE LOCATTON
+
+DEST    DESTINATION FILE LOCATION (optional)
+
 
 Retrieves the provided file's ID from the database. It can be saved to a file by specifying a destination.
 
 
-GETFILE
+
+**GETFILE**
+
         GETID SRC DEST
-        SRC     SOURCE FILE LOCATTON
-        DEST    DESTINATION FILE LOCATION
+
+SRC     SOURCE FILE LOCATTON
+
+DEST    DESTINATION FILE LOCATION
+
 
 Retrieves the provided file ID (from source file location) from the database and saves it as a file in the specified destination. 
 
 
-GETRND
+
+**GETRND**
+        
         GETRND SIZE DEST
-        SIZE    SIZE OF FILE IN BYTES
-        DEST    DESTINATION FILE LOCATION
+
+SIZE    SIZE OF FILE IN BYTES
+
+DEST    DESTINATION FILE LOCATION
+
 
 Retrieves a random file of a provided size from the database and saves it as a file in the specified location.
 
 
-GET
+
+**GET**
+
         GET DEST
-        DEST    DESTINATION FOLDER LOCATION
+
+DEST    DESTINATION FOLDER LOCATION
+
 
 Retrieves the Database of Damascus and saves each file within the specified folder. 
 
 
-CLS
-        CLEARS THE SCREEN
+
+**CLS**
+
+        CLS
+
 
 Clears the current console buffer.
 
 
-HELP
-        DISPLAYS ALL COMMANDS
+**HELP**
+
+        HELP
+
 
 Displays all commands and syntax.
 
